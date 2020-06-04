@@ -7,9 +7,10 @@ import urllib.parse
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
 
-# This information is obtained upon registration of a new GitHub
+# Эти параметры заполняются значениями из https://alor.dev/myapps
 client_id = "d8d4cbfc66d649f18ce7"
 client_secret = "4s79AP4NkG6AMMRsoiPCO/XG1PGXI7pAS+UDu69xn40="
+
 authorization_base_url = 'https://oauth.alor.ru/authorize'
 token_url = 'https://oauth.alor.ru/token'
 redirect_uri = 'http://localhost:3002/callback'
